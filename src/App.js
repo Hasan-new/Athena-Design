@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import WhatWeDo from './Components/WhatWeDo/WhatWeDo';
 
 function App() {
   return (
     <div className="App">
-      <h1>hi this s kklk</h1>
+      <WhatWeDo>
+        
+      </WhatWeDo>
     </div>
   );
 }
