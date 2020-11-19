@@ -5,50 +5,44 @@ import './ChoseYourTeam.css';
 
 const ChoseYourTeam = () => {
     return (
-        <div className="container">
-            <h4 className="text-center">Choose Your Dedicated Team</h4>
-           
-            <div class="card-deck">
-  <div class="card">
-    {/* <img src="..." class="card-img-top" alt="..." /> */}
-    <div class="card-body">
-      <h2 class="card-title">$199</h2>
-      <h6 class="card-text">For Basic</h6>
+        <div className="container chooseYourTeam">
+          <h2 className="text-center mb-5">Choose Your Dedicated Team</h2>
+        
+          <div className="card-deck text-center">
+            <div className="card team-card">
+              {/* <img src="..." className="card-img-top" alt="..." /> */}
+              <div className="card-body">
+                <h3 className="card-title team-price">$199</h3>
+                <h6 className="card-text team-plan">For Basic</h6>
 
-      <canvas id="myCanvas"></canvas>
+                <p className="card-text team-p">Homepage<br/><br/> No Inner Page<br/><br/>Asset file<br/><br/>
+                Source file<br/><br/>Free Stock Photos<br/><br/>10 Days Free Support<br/><br/>24/7 Support</p>
+                <button className="btn navContact pricing-btn mt-4 team-btn">Order Now</button>
+              </div>
+            </div>
+            <div className="card team-card">
+              {/* <img src="..." className="card-img-top" alt="..." /> */}
+              <div className="card-body">
+                <h3 className="card-title team-price">$399</h3>
+                <h6 className="card-text team-plan">For Preferred</h6>
 
-      <p class="card-text">Homepage<br/><br/> No Inner Page<br/><br/>Asset file<br/><br/>
-      Source file<br/><br/>Free Stock Photos<br/><br/>10 Days Free Support<br/><br/>24/7 Support</p>
-      <button className="btn navContact pricing-btn">Order Now</button>
-    </div>
-  </div>
-  <div class="card">
-    {/* <img src="..." class="card-img-top" alt="..." /> */}
-    <div class="card-body">
-      <h2 class="card-title">$399</h2>
-      <h6 class="card-text">For Preferred</h6>
-      
-      <canvas id="myCanvas"></canvas>
+                <p className="card-text team-p">Homepage<br/><br/> No Inner Page<br/><br/>Asset file<br/><br/>
+                Source file<br/><br/>Free Stock Photos<br/><br/>10 Days Free Support<br/><br/>24/7 Support</p>
+                <button className="btn navContact pricing-btn mt-4 team-btn">Order Now</button>
+              </div>
+            </div>
+            <div className="card team-card">
+              {/* <img src="..." className="card-img-top" alt="..." /> */}
+              <div className="card-body">
+                <h3 className="card-title team-price">$599</h3>
+                <h6 className="card-text team-plan">For Elite</h6>
 
-      <p class="card-text">Homepage<br/><br/> No Inner Page<br/><br/>Asset file<br/><br/>
-      Source file<br/><br/>Free Stock Photos<br/><br/>10 Days Free Support<br/><br/>24/7 Support</p>
-      <button className="btn navContact pricing-btn">Order Now</button>
-    </div>
-  </div>
-  <div class="card">
-    {/* <img src="..." class="card-img-top" alt="..." /> */}
-    <div class="card-body">
-      <h2 class="card-title">$599</h2>
-      <h6 class="card-text">For Elite</h6>
-
-      <canvas id="myCanvas"></canvas>
-
-      <p class="card-text">Homepage<br/><br/> No Inner Page<br/><br/>Asset file<br/><br/>
-      Source file<br/><br/>Free Stock Photos<br/><br/>10 Days Free Support<br/><br/>24/7 Support</p>
-      <button className="btn navContact pricing-btn">Order Now</button>
-    </div>
-  </div>
-</div>
+                <p className="card-text team-p">Homepage<br/><br/> No Inner Page<br/><br/>Asset file<br/><br/>
+                Source file<br/><br/>Free Stock Photos<br/><br/>10 Days Free Support<br/><br/>24/7 Support</p>
+                <button className="btn navContact pricing-btn mt-4 team-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
         </div>
     );
 };

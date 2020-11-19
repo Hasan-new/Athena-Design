@@ -1,21 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-h1{
-    color: black;
-    font-family: 'Yeseva One', cursive;
-}
-/* .effect:hover{
-    background: #fff;
-    border-radius: 70px 0px;
-    box-shadow: 5px 5px 10px lightgrey;
-  } */
-  .card-withHover:hover{
-    background: #fff;
-    border-radius: 0px 0px;
-    box-shadow: 5px 5px 10px lightgrey;
+  h1{
+      color: black;
+      font-family: 'Yeseva One', cursive;
   }
+
+  .whatWeDo {
+    background: #FAFFFD;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .card-body{
-    text-align: center;
+    padding: 30px;
+    padding-top: 20px;
   }
-  .card{
+
+  .whatWeDoCard{
     padding-top: 35px;
+    background: none;
+    border: none;
+    border-radius: 65px 0;
+    transition: .2s;
+  }
+
+  .whatWeDoCard:hover {
+    box-shadow: 0 0 20px #eae9e9;
+    background-color: white;
   }

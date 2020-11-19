@@ -14,47 +14,47 @@ const card = [
 
 const WhatWeDo = () => {
     return (
-        <div className="container">
+        <div className="container whatWeDo">
             <div className='text-center'>
-                <h1>What We Do</h1>
-                <p><small style={{ color:'#afb0b0'}}>Our main focus is to make the User Experience <br/>very
-simple and easy. Simplicity is our Strength.</small></p>
+                <h2>What We Do</h2>
+                <p>Our main focus is to make the User Experience very<br/>
+                    simple and easy. Simplicity is our Strength.</p>
             </div>
 
             <div>
-                <div class="container first-part">
+                <div class="container first-part mt-5">
                     <div class="row d-flex">
                         <div class="card-deck">
-                            <div class="card card-withHover" >
+                            <div class="card whatWeDoCard text-center" >
                                 <img  style={{margin: '0 auto'}} src={firstImage} className="card-img-top img-fluid w-25" alt="..." />
                                 <div class="card-body">
-                                    <h6 class="card-text" style={{ color: ' #413960' }}>Experience Design</h6>
-                                    <p class="card-text"><small class="text-muted">The point of using Lorem
-                                            Ipsum is that it has a more-orless normal.</small></p>
+                                    <h3 class="card-text" >Experience Design</h3>
+                                    <p class="card-text">The point of using Lorem
+                                            Ipsum is that it has a more-orless normal.</p>
                                 </div>
                             </div>
-                            <div class="card card-withHover text-center">
+                            <div class="card whatWeDoCard text-center">
                                 <img  style={{margin: '0 auto'}} src={secondImage} className="card-img-top img-fluid w-25" alt="..." />
                                 <div class="card-body">
-                                    <h6 class="card-text" style={{ color: '#413960' }}>Interface Design </h6>
-                                    <p class="card-text"><small class="text-muted">The point of using Lorem
-                                        Ipsum is that it has a more-orless normal.</small></p>
+                                    <h3 class="card-text" >Interface Design </h3>
+                                    <p class="card-text">The point of using Lorem
+                                        Ipsum is that it has a more-orless normal.</p>
                                 </div>
                             </div>
-                            <div class="card card-withHover text-center">
+                            <div class="card whatWeDoCard text-center">
                                 <img  style={{margin: '0 auto'}} src={thirdImage} className="card-img-top img-fluid w-25" alt="..." />
                                 <div class="card-body">
-                                    <h6 class="card-text" style={{ color: ' #413960' }}>Prototyping</h6>
-                                    <p class="card-text"><small class="text-muted">The point of using Lorem
-                                                Ipsum is that it has a more-orless normal.</small></p>
+                                    <h3 class="card-text" >Prototyping</h3>
+                                    <p class="card-text">The point of using Lorem
+                                                Ipsum is that it has a more-orless normal.</p>
                                 </div>
                             </div>
-                            <div class="card card-withHover text-center">
+                            <div class="card whatWeDoCard text-center">
                                 <img  style={{margin: '0 auto'}} src={fourthImage} className="card-img-top img-fluid w-25" alt="..." />
                                 <div class="card-body">
-                                    <h6 class="card-text" style={{ color: '#413960' }}>Illustration</h6>
-                                    <p class="card-text"><small class="text-muted">The point of using Lorem
-                                                    Ipsum is that it has a more-orless normal.</small></p>
+                                    <h3 class="card-text" >Illustration</h3>
+                                    <p class="card-text">The point of using Lorem
+                                                    Ipsum is that it has a more-orless normal.</p>
                                 </div>
                             </div>
                         </div>
