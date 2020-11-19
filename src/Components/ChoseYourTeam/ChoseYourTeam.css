@@ -1,11 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.chooseYourTeam {
+    background: #FAFFFD;
+}
+
 h4{
     color:"#858585";
     font-family: 'Yeseva One', cursive;
     margin-top: 30px;
 }
-#myCanvas{
-    border: 1px solid black;
-    width: 150px;
-    height: 1px;
+
+.team-card {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    color: #353535;
+    border: none;
+    box-shadow: 0 0 20px #e0e0e0;
+    transition: .3s;
+    border: 3px solid white;
+}
+
+.team-card:hover .team-price,
+.team-card:hover .team-plan,
+.team-card:hover .team-p {
+    color: black;
+}
+
+.team-card:hover {
+    border: 3px solid #3CEDCE;
+}
+
+.team-card:hover .team-btn {
+    opacity: 1;
+}
+
+.team-card:hover .team-plan::after {
+    background-color: #CCCCCC !important;
+    height: 3px;
+}
+
+.team-price {
+    font-weight: 800;
+    font-size: 40px;
+    color: #494242;
+}
+
+.team-plan::after {
+    content: "";
+    background-color: #4FD1CB;
+    height: 3px;
+    display: block;
+    width: 175px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.team-plan {
+    color: #5D5D5D;
+}
+
+.team-p {
+    color: #353535;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.team-btn {
+    opacity: 0;
+    transition: .3s;
 }
