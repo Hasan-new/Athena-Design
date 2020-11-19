@@ -19,7 +19,7 @@ const ChoseYourTeam = () => {
 
       <p class="card-text">Homepage<br/><br/> No Inner Page<br/><br/>Asset file<br/><br/>
       Source file<br/><br/>Free Stock Photos<br/><br/>10 Days Free Support<br/><br/>24/7 Support</p>
-      <button>Order Now</button>
+      <button className="btn navContact pricing-btn">Order Now</button>
     </div>
   </div>
   <div class="card">
@@ -32,7 +32,7 @@ const ChoseYourTeam = () => {
 
       <p class="card-text">Homepage<br/><br/> No Inner Page<br/><br/>Asset file<br/><br/>
       Source file<br/><br/>Free Stock Photos<br/><br/>10 Days Free Support<br/><br/>24/7 Support</p>
-      <button>Order Now</button>
+      <button className="btn navContact pricing-btn">Order Now</button>
     </div>
   </div>
   <div class="card">
@@ -45,7 +45,7 @@ const ChoseYourTeam = () => {
 
       <p class="card-text">Homepage<br/><br/> No Inner Page<br/><br/>Asset file<br/><br/>
       Source file<br/><br/>Free Stock Photos<br/><br/>10 Days Free Support<br/><br/>24/7 Support</p>
-      <button>Order Now</button>
+      <button className="btn navContact pricing-btn">Order Now</button>
     </div>
   </div>
 </div>
