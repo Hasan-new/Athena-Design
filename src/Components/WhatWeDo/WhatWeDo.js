@@ -8,9 +8,6 @@ import fourthImage from '../../Image/Group 72@2x.png';
 
 
 
-const card = [
-
-]
 
 const WhatWeDo = () => {
     return (
