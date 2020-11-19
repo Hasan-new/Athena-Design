@@ -5,13 +5,14 @@ import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
 import Achievements from './Components/Achievements/Achievements';
 
+
 function App() {
   return (
-    <div className="App">
+    <div className="App">      
       <Navbar></Navbar>
       <Header></Header>
+      <WhatWeDo></WhatWeDo>
       <Achievements></Achievements>
-      {/* <WhatWeDo></WhatWeDo> */}
     </div>
   );
 }

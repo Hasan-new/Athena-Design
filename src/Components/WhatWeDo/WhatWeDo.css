@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+h1{
+    color: black;
+    font-family: 'Yeseva One', cursive;
+}
+.text-center{
+    margin-bottom: 70px;
+}
+/* .effect:hover{
+    background: #fff;
+    border-radius: 70px 0px;
+    box-shadow: 5px 5px 10px lightgrey;
+  } */
+  .card-withHover:hover{
+    background: #fff;
+    border-radius: 0px 0px;
+    box-shadow: 5px 5px 10px lightgrey;
+  }
