@@ -19,17 +19,18 @@
     align-items: center;
     height: 140px;
     background-color: white;
-    box-shadow: 0 0 20px #e7fff4;
+    box-shadow: 0 0 20px #d3ffebeb;
     margin: 10px 0;
     color: #8D8D8D;
 }
 
-.achievement:hover {
+.achievement:hover,
+.achievement-active {
     color: white;
     background-image: linear-gradient(65deg, #0DB8DD, #1EDDB3);
 }
 
-.achievement:hover .achievement-right h3 {
+.achievement-active div h3 {
     color: white;
 }
 

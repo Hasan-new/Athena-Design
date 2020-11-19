@@ -13,7 +13,7 @@ const Achievements = () => {
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter</p>
             </div>
             <div className="col-lg-7 col-md-7 col-sm-12 d-flex flex-wrap achievements-right">
-                <div className="achievement ach-1">
+                <div className="achievement ach-1 achievement-active">
                     <div className="achievement-left">
                         <img src={face} alt=""/>
                     </div>
