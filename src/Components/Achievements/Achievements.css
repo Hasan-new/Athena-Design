@@ -1,0 +1,52 @@
+.achievements {
+    background: #FAFFFD;
+    height: 550px;
+}
+
+.achievements-left p {
+    width: 80%;
+}
+
+.achievements-right {
+    justify-content: space-between;
+}
+
+.achievement {
+    width: 48%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    background-color: white;
+    box-shadow: 0 0 20px #e7fff4;
+    margin: 10px 0;
+    color: #8D8D8D;
+}
+
+.achievement:hover {
+    color: white;
+    background-image: linear-gradient(65deg, #0DB8DD, #1EDDB3);
+}
+
+.achievement-right {
+    text-align-last: left;
+    margin-left: 25px;
+}
+
+.achievement-right h3 {
+    font-weight: 800;
+}
+
+.achievement-right h5 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.ach-1 {
+    border-radius: 0 75px;
+}
+
+.ach-2 {
+    border-radius: 75px 0;
+}

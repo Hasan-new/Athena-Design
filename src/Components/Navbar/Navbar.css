@@ -1,0 +1,24 @@
+.navLogo {
+    width: 125px;
+}
+
+.nav-link {
+    color: #263F44;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.navContact {
+    background-image: linear-gradient(125deg, #1AD4BF, #09B1E7);
+    color: white !important;
+    font-size: 14px;
+    border-radius: 20px 0px;
+    padding: 7px 21px;
+    border: 0;
+}
+
+.navContact:hover {
+    background-image: linear-gradient(125deg, #09B1E7, #1AD4BF);
+}
