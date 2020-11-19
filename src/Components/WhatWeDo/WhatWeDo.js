@@ -14,7 +14,7 @@ const card = [
 
 const WhatWeDo = () => {
     return (
-        <div>
+        <div className="container">
             <div className='text-center'>
                 <h1>What We Do</h1>
                 <p><small style={{ color:'#afb0b0'}}>Our main focus is to make the User Experience <br/>very

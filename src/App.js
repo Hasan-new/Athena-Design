@@ -4,6 +4,7 @@ import WhatWeDo from './Components/WhatWeDo/WhatWeDo';
 import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
 import Achievements from './Components/Achievements/Achievements';
+import ChoseYourTeam from './Components/ChoseYourTeam/ChoseYourTeam';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       <WhatWeDo></WhatWeDo>
       <Achievements></Achievements>
+      <ChoseYourTeam></ChoseYourTeam>
     </div>
   );
 }

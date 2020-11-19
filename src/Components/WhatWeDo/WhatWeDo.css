@@ -16,3 +16,9 @@ h1{
     border-radius: 0px 0px;
     box-shadow: 5px 5px 10px lightgrey;
   }
+  .card-body{
+    text-align: center;
+  }
+  .card{
+    padding-top: 35px;
+  }
