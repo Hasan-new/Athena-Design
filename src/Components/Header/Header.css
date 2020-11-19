@@ -1,0 +1,22 @@
+.header {
+    margin-top: 20px;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.header-left p {
+    width: 70%;
+    font-size: 14px;
+    margin-top: 45px;
+    color: #8D8D8D;
+}
+
+.header-left button {
+    margin-top: 15px;
+}
+
+.pricing-btn {
+    padding: 10px 22px;
+}
