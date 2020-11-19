@@ -1,5 +1,6 @@
 .header {
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .header-img {
@@ -8,9 +9,7 @@
 
 .header-left p {
     width: 70%;
-    font-size: 14px;
     margin-top: 45px;
-    color: #8D8D8D;
 }
 
 .header-left button {
