@@ -9,6 +9,12 @@ h1 {
 }
 
 h2 {
-  font-family: 'Noto Serif', serif;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Crimson Text', serif;
+  font-size: 34px;
+  letter-spacing: -1px;
+}
+
+p {
+  font-size: 14px;
+  color: #8D8D8D;
 }
