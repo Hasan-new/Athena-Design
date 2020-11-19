@@ -21,10 +21,8 @@ function App() {
       <StayRunningProject></StayRunningProject>
       <Achievements></Achievements>
       <ChoseYourTeam></ChoseYourTeam>
-
-
       <GetYourDesign></GetYourDesign>
->
+    </div>
   );
 }
 
