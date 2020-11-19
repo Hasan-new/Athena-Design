@@ -5,7 +5,11 @@ import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
 import Achievements from './Components/Achievements/Achievements';
 import ChoseYourTeam from './Components/ChoseYourTeam/ChoseYourTeam';
+
 import StayRunningProject from './Components/StayRunningProject/StayRunningProject';
+
+import GetYourDesign from './Components/GetYourDesign/GetYourDesign';
+
 
 
 function App() {
@@ -17,8 +21,10 @@ function App() {
       <StayRunningProject></StayRunningProject>
       <Achievements></Achievements>
       <ChoseYourTeam></ChoseYourTeam>
-      
-    </div>
+
+
+      <GetYourDesign></GetYourDesign>
+>
   );
 }
 
