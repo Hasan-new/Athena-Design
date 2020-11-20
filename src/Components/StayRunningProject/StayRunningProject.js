@@ -20,14 +20,12 @@ const StayRunningProject = () => {
                     </p>
                     <button className="btn navContact mx-2 pricing-btn">Contact Us</button>
                 </div>
-
-            </div>
-            
-            <div className="circle_background4 style">
+                <div className="circle_background4 style">
                 
-            </div>
-            <div className="circle_background5 style">
-                
+                </div>
+                <div className="circle_background5 style">
+                    
+                </div>
             </div>
         </div>
     );
