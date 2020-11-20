@@ -262,10 +262,11 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        display: -webkit-inline-box;
+        display: grid;
+        grid-template-columns: auto auto;
     }
     .first-part .row .card-deck .card {
-        width: 46%;
+        width: 93%;
         margin-left: 2% !important;
         margin-right: 2% !important;
         margin-top: 20px;
@@ -323,7 +324,7 @@
         padding-bottom: 25px !important;     
     }
     .team-card {
-        width: 44%;
+        width: 100%;
         margin: 0 auto !important;
         padding: 0 !important;
         margin-bottom: 30px !important;
@@ -333,7 +334,9 @@
         padding: 8px 18px;
     }
     .chooseYourTeam .container .card-deck {
-        display: -webkit-inline-box;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 50px;
     }
     .footer {
         padding-top: 60px !important;
