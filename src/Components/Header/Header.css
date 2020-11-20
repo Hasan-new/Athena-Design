@@ -71,7 +71,7 @@
 }
 
 .background_image_2 {
-    position: fixed;
+    position: absolute;
     top: -810px;
     right: -990px;
     z-index: -1;
