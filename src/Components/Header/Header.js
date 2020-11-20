@@ -10,7 +10,7 @@ const Header = () => {
         <div className="header">
             <div className="container p-0 d-flex align-items-center inside-header">
                 <div className="col-lg-6 col-md-6 col-sm-12 header-left">
-                    <h1>Florence <br/> agency</h1>
+                    <h1>Florence agency</h1>
                     <p>Lorem Ipsum has been the industry's standard dummy text ever
                         since the 1500s, when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book.
@@ -23,7 +23,7 @@ const Header = () => {
                         <img src={studio} alt=""/>
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-12">
+                <div className="col-lg-6 col-md-6 col-sm-12 head-right">
                     <img className="header-img" src={headerImg} alt=""/>
                 </div>
                 <div className="circle_background1 style">
@@ -36,7 +36,7 @@ const Header = () => {
                     
                 </div>
             </div>
-            <div className="background_image_1 style">
+            <div className="background_image_1">
                 <img src={background1} alt=""/>
             </div>
             <div className="background_image_2 style">

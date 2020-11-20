@@ -33,3 +33,7 @@ h6 {
   color: #8D8D8D;
   font-weight: 300;
 }
+
+.w-25 {
+  width: 30%!important;
+}

@@ -17,7 +17,7 @@ const GetYourDesign = () => {
                     <div className="btn started-btn navContact pricing-btn">Get Started</div>
                 </div>
                 <div className="footer-bottom">
-                    <div className="col-lg-5 col-md-5 col-sm-12 footer-left">
+                    <div className="col-lg-5 col-md-5 col-sm-4 footer-left">
                         <a href="#"><img className="navLogo" src={logo} alt=""/></a>
                         <div className="mt-4">
                             <a target="_blank" className="footer-icon" href="https://www.facebook.com/"><img src={facebook} alt=""/></a>
@@ -26,19 +26,19 @@ const GetYourDesign = () => {
                             <a target="_blank" className="footer-icon" href="https://dribbble.com/"><img src={dribbble} alt=""/></a>
                         </div>
                     </div>
-                    <div className="col-lg-7 col-md-7 col-sm-12 footer-right">
-                        <div className="col-lg-4 col-md-4 col-sm-12">
+                    <div className="col-lg-7 col-md-7 col-sm-8 footer-right">
+                        <div className="col-lg-4 col-md-4 col-sm-4">
                             <a href="#">Features</a>
                             <a href="#">Enterprise</a>
                             <a href="#">Pricing</a>
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-12">
+                        <div className="col-lg-4 col-md-4 col-sm-4">
                             <a href="#">Blog</a>
                             <a href="#">Help Center</a>
                             <a href="#">Contact Us</a>
                             <a href="#">Status</a>
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-12">
+                        <div className="col-lg-4 col-md-4 col-sm-4">
                             <a href="#">About Us</a>
                             <a href="#">Terms of Service</a>
                             <a href="#">Security</a>
