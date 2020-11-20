@@ -1,9 +1,14 @@
+.navbar {
+    z-index: 1;
+}
+
 .navLogo {
     width: 125px;
 }
 
 .nav-link {
     color: #263F44;
+    font-size: 14px;
 }
 
 .active {

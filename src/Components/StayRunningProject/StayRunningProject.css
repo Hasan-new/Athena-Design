@@ -1,3 +1,6 @@
+.StayRunningProject {
+    padding-top: 50px;
+}
 .project-image{
     width: 100%;
 }
@@ -9,9 +12,6 @@
 .header-right{
     width: 70%;
     margin-top: 45px;
-}
-.container{
-    margin-top: 50px;
 }
 .contact{
     padding-left: 70px;

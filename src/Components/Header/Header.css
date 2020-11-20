@@ -1,6 +1,21 @@
 .header {
     margin-top: 20px;
     margin-bottom: 50px;
+    z-index: 1;
+}
+
+.background_image_1 {
+    position: absolute;
+    top: -435px;
+    left: -455px;
+    z-index: -1;
+}
+
+.background_image_2 {
+    position: fixed;
+    top: -810px;
+    right: -990px;
+    z-index: -1;
 }
 
 .header-img {
