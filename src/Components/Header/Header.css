@@ -11,6 +11,61 @@
     z-index: -1;
 }
 
+.studio {
+    position: absolute;
+    top: 325px;
+    left: -190px;
+    opacity: .03;
+}
+
+.studio2 {
+    position: absolute;
+    opacity: .03;
+    top: -90px;
+    left: 1020px;
+    z-index: 1;
+}
+
+.studio img,
+.studio2 img {
+    height: 100px;
+}
+
+.circle_background1,
+.circle_background4 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #866dce, #8888da);
+    border-radius: 50%;
+    filter: blur(12px);
+    top: 135px;
+    right: 565px;
+}
+
+.circle_background2,
+.circle_background5 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(45deg, #62BAC5, #3CEDCE);
+    border-radius: 50%;
+    filter: blur(12px);
+    top: 550px;
+    left: 500px;
+}
+
+.circle_background3 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(45deg, #866dce, #8888da);
+    border-radius: 50%;
+    filter: blur(12px);
+    top: 110px;
+    left: 75px;
+}
+
 .background_image_2 {
     position: fixed;
     top: -810px;
