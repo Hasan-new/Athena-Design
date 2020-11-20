@@ -1,6 +1,6 @@
 import React from 'react';
 import './StayRunningProject.css';
-import projectImage from '../../Image/20 [Converted]@2x.png';
+import projectImage from '../../images/20 [Converted]@2x.png';
 
 const StayRunningProject = () => {
     return (
