@@ -1,5 +1,6 @@
 .StayRunningProject {
     padding-top: 50px;
+    position: relative;
 }
 .project-image{
     width: 100%;
@@ -15,4 +16,14 @@
 }
 .contact{
     padding-left: 70px;
+}
+
+.circle_background4 {
+    top: 80px;
+    left: 220px;
+}
+
+.circle_background5 {
+    bottom: 0;
+    left: 520px;
 }

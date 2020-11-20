@@ -2,6 +2,7 @@
 
 .chooseYourTeam {
     background: #FAFFFD;
+    position: relative;
 }
 
 h4{
@@ -12,13 +13,13 @@ h4{
 
 .team-background {
     position: absolute;
-    top: 2430px;
-    left: -332px;
+    top: 115px;
+    left: -320px;
     transform: rotate(45deg);
-    opacity: .1;
+    opacity: .08;
 }
 
-.team-background {
+.team-background img {
     width: 700px;
 }
 
