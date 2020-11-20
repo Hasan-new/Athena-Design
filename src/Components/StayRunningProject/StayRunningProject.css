@@ -18,6 +18,10 @@
     padding-left: 70px;
 }
 
+.contact p {
+    width: 375px;
+}
+
 .circle_background4 {
     top: 15px;
     left: 165px;
@@ -26,4 +30,8 @@
 .circle_background5 {
     bottom: 30px;
     left: 465px;
+}
+
+.only-phone {
+    display: none;
 }

@@ -81,8 +81,11 @@
     width: 100%;
 }
 
+.header-left {
+    padding-right: 15%;
+}
+
 .header-left p {
-    width: 70%;
     margin-top: 45px;
 }
 

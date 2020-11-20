@@ -1,0 +1,450 @@
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    .navLogo {
+        width: 100px;
+    }
+
+    .nav-link, .navContact {
+        font-size: 13px;
+    }
+
+    .header-left p {
+        margin-top: 35px;
+    }
+
+    .header-left button {
+        margin-top: 8px;
+    }
+
+    .pricing-btn {
+        padding: 8px 20px;
+    }
+
+    .header-img {
+        width: 92%;
+    }
+
+    .circle_background1 {
+        top: -5px;
+        right: 430px;
+    }
+
+    .circle_background1, .circle_background4 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .circle_background2, .circle_background5 {
+        width: 15px;
+        height: 15px;
+        filter: blur(9px);
+    }
+
+    .circle_background3 {
+        width: 20px;
+        height: 20px;
+        filter: blur(10px);
+    }
+
+    .studio {
+        top: 255px;
+        left: -130px;
+    }
+
+    .studio2 {
+        top: -75px;
+        left: 835px;
+    }
+
+    .studio img, .studio2 img {
+        height: 80px;
+    }
+
+    .background_image_2 {
+        right: -1060px;
+    }
+
+    h2 {
+        font-size: 29px;
+    }
+
+    .inside_achievments {
+        height: 450px;
+    }
+
+    .achievements-right {
+        justify-content: space-around;
+    }
+
+    .achievement-left img {
+        width: 55px;
+    }
+
+    .achievement {
+        height: 115px;
+        width: 45%;
+    }
+
+    .achievement-right {
+        margin-left: 8px;
+    }
+
+    .achievement-right h3 {
+        font-size: 25px;
+    }
+
+    .achievement-right h5 {
+        font-size: 14px;
+    }
+
+    .ach-2 {
+        border-radius: 60px 0;
+    }
+
+    .ach-1 {
+        border-radius: 0 60px;
+    }
+
+    h6 {
+        font-size: 13px;
+    }
+
+    .footer-form {
+        width: 440px !important;
+    }
+
+    .email-input {
+        height: 40px !important;
+    }
+
+    .started-btn {
+        right: 4px !important;
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .footer-right div a {
+        font-size: 13px !important;
+    }
+
+    .team-p {
+        font-size: 13px;
+    }
+
+    .team-plan::after {
+        width: 150px;
+        height: 2px;
+    }
+
+    .team-card:hover .team-plan::after {
+        height: 2px;
+    }
+
+    .contact p {
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        width: 150px;
+        margin: auto;
+        text-align: center;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .header-left button {
+        margin-top: 5px;
+    }
+    .header-left p {
+        margin-top: 25px;
+    }
+    .style {
+        display: none;
+    }
+    .contact {
+        padding-left: 45px !important;
+    }
+    h2 {
+        font-size: 27px;
+    }
+    .contact p {
+        width: 285px !important;
+    }
+    .inside_achievments {
+        height: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .achievements-left p {
+        margin: auto;
+        width: 68%;
+        padding-bottom: 30px;
+    }
+    .achievement {
+        width: 35%;
+    }
+    .achievements-right {
+        justify-content: space-evenly;
+    }
+    .team-card {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    .team-btn {
+        opacity: 1;
+    }
+    .team-p {
+        font-size: 12px;
+    }
+    .footer {
+        padding-top: 100px !important;
+        padding-bottom: 35px !important;
+    }
+    .footer-form {
+        margin-top: 20px !important;
+    }
+    .footer-bottom {
+        margin-top: 60px !important;
+    }
+    .first-part .row .card-deck .card {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+    .whatWeDoCard .card-body {
+        padding: 15px;
+        padding-top: 10px;
+    }
+    .whatWeDoCard .card-body h3 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .whatWeDoCard {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        border-radius: 50px 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .inside-header {
+        flex-wrap: wrap;
+    }
+    .header-left {
+        margin-top: 30px;
+        padding-right: 0;
+    }
+    .head-right {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .head-right img {
+        width: 85%;
+    }
+    .whatWeDo {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .first-part {
+        margin-top: 0 !important;
+    }
+    .first-part .row .card-deck {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: -webkit-inline-box;
+    }
+    .first-part .row .card-deck .card {
+        width: 46%;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+        margin-top: 20px;
+        padding: 10px !important;
+        padding-top: 10px;
+        padding-top: 25px !important;
+        border-radius: 60px 0;
+    }
+    .StayRunningProject {
+        background: #FAFFFD;
+        text-align: center;
+    }
+    .project {
+        display: block !important;
+        margin-top: 0 !important;
+    }
+    .only-pc {
+        display: none;
+    }
+    .only-phone {
+        display: block !important;
+    }
+    .contact {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .contact p {
+        width: 77% !important;
+        margin: auto;
+        margin-bottom: auto;
+        margin-bottom: 15px;
+    }
+    .project-image {
+        width: 85% !important;
+        margin-top: 20px;
+    }
+    .project {
+        padding-bottom: 40px !important;
+    }
+    .inside_achievments {
+        padding-top: 20px;
+    }
+    .achievements-left p {
+        width: 77%;
+        padding-bottom: 20px;
+    }
+    .achievements-right {
+        justify-content: space-between;
+    }
+    .achievement {
+        width: 48%;
+    }
+    .chooseYourTeam .container h2 {
+        padding-top: 20px;
+        padding-bottom: 25px !important;     
+    }
+    .team-card {
+        width: 44%;
+        margin: 0 auto !important;
+        padding: 0 !important;
+        margin-bottom: 30px !important;
+    }
+    .team-btn {
+        font-size: 12px;
+        padding: 8px 18px;
+    }
+    .chooseYourTeam .container .card-deck {
+        display: -webkit-inline-box;
+    }
+    .footer {
+        padding-top: 60px !important;
+    }
+    .footer-icon {
+        margin: 0 5px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    body {
+        margin: auto;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .navbar, .header, .whatWeDo, .StayRunningProject, .achievements, .chooseYourTeam, .footer {
+        padding: 0 7%;
+    }
+    .header-left {
+        padding: 0;
+    }
+    .head-right {
+        margin-top: 50px;
+    }
+    .head-right img {
+        width: 100%;
+    }
+    .head-right {
+        padding: 0;
+    }
+    .whatWeDo {
+        padding-top: 30px;
+    }
+    .first-part .row .card-deck {
+        display: block;
+    }
+    .first-part .row .card-deck .card {
+        width: 100%;
+        padding: 0;
+        margin: 30px 0 !important;
+    }
+    .StayRunningProject {
+        padding-top: 25px;
+    }
+    .contact p {
+        width: 100% !important;
+    }
+    .project-image {
+        width: 100% !important;
+        margin-top: 30px;
+    }
+    .only-phone {
+        padding: 0;
+    }
+    .achievements-left p {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .achievements-left, .achievements-right {
+        padding: 0;
+    }
+    .achievement {
+        width: 100%;
+    }
+    .achievement-right {
+        margin-left: 15px;
+    }
+    .inside_achievments {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .chooseYourTeam {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .chooseYourTeam .container .card-deck {
+        display: block;
+    }
+    .team-card {
+        width: 100%;
+    }
+    .chooseYourTeam .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-form {
+        width: 100% !important;
+    }
+    .footer-bottom {
+        display: block !important;
+    }
+    .footer-left, .footer-right {
+        text-align: center !important;
+        display: block !important;
+    }
+    .footer-left {
+        margin-bottom: 20px;
+    }
+    .footer-left .mt-4 {
+        margin-top: 20px !important;
+    }
+    .footer-right div a {
+        margin: auto !important;
+        padding: 2px 0;
+    }
+    .footer-right .col-lg-4 {
+        margin-top: 20px;
+    }
+}

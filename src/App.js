@@ -5,9 +5,8 @@ import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
 import Achievements from './Components/Achievements/Achievements';
 import ChoseYourTeam from './Components/ChoseYourTeam/ChoseYourTeam';
-
+import './Responsive.css';
 import StayRunningProject from './Components/StayRunningProject/StayRunningProject';
-
 import GetYourDesign from './Components/GetYourDesign/GetYourDesign';
 
 
