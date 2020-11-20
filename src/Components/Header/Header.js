@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
-import headerImg from '../../images/header-img.png'
+import headerImg from '../../images/header-img.png';
+import background1 from '../../images/Group 45@2x.png'
+import background2 from '../../images/Group 46@2x.png'
 
 const Header = () => {
     return (
@@ -15,6 +17,12 @@ const Header = () => {
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
                 <img className="header-img" src={headerImg} alt=""/>
+            </div>
+            <div className="background_image_1 style">
+                <img src={background1} alt=""/>
+            </div>
+            <div className="background_image_2 style">
+                <img src={background2} alt=""/>
             </div>
         </div>
     );

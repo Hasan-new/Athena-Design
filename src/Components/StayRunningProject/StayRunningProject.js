@@ -4,7 +4,7 @@ import projectImage from '../../Image/20 [Converted]@2x.png';
 
 const StayRunningProject = () => {
     return (
-        <div>
+        <div className="StayRunningProject">
             <div className="container p-0 d-flex align-items-center project">
             
             <div className="col-lg-6 col-md-6 col-sm-12">
